@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="894.0" prefWidth="1251.0" spacing="20.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label styleClass="heading-text" stylesheets="@MediaSharingAppStyle.css" text="MediaPlayerApp" />
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="180.0" prefWidth="1251.0" spacing="15.0">
+               <children>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@MusicBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Music  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@MovieBtn.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Movies  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@SeriesBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Series  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="180.0" prefWidth="1251.0" spacing="15.0">
+               <children>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@VideosBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Videos  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@PicturesBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Pictures  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@DocumentsBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Documents  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="180.0" prefWidth="1251.0" spacing="15.0">
+               <children>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@ConnectBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Connect  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@RemoteBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Remote  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+                  <StackPane alignment="BOTTOM_RIGHT" prefHeight="217.0" prefWidth="200.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@SettingsBtn.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_RIGHT" styleClass="home-icon-image-music-text" stylesheets="@MediaSharingAppStyle.css" text="Settings  " />
+                     </children>
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets top="30.0" />
+   </padding>
+</VBox>
